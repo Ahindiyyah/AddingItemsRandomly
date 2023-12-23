@@ -21,8 +21,8 @@ public class CreatingAccountAndSignInAndAddItems extends parameters {
 	}
 
 	@Test(priority = 1)
-	public void SignIn() {
-		SignInProcess();
+	public void SignUp() {
+		SignUpProcess();
 	}
 
 	@Test(priority = 2)
