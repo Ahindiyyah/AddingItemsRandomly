@@ -29,7 +29,7 @@ public class parameters {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 	}
 	@Test(priority = 1)
-	public void SignInProcess() {
+	public void SignUpProcess() {
 		WebElement CreateAccount = driver.findElement(By.xpath("/html/body/div[2]/header/div[1]/div/ul/li[3]/a"));
 		CreateAccount.click();
 		WebElement FirtsName = driver.findElement(By.id("firstname"));
